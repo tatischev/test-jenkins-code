@@ -1,5 +1,5 @@
 #!/bin/sh
-./test
+./test "-i"
 if [ $? -eq 0 ]; then
    echo OK
 else
